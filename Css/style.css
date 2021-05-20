@@ -1,0 +1,66 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+* {
+    padding:0;
+    margin:0;
+  }
+  .intro {
+    padding: 100px 0;
+    color: white;
+    background:  url(../Imagens/fundo.jpg);
+    background-position: 30% 45%;
+    background-size: cover;
+  }
+
+  #autenticador {
+      -webkit-border-radius:10px;
+      -moz-border-radius: 10px;
+      width: 600px;
+      height: 300px;
+      margin: 0 auto;
+      border-radius: 10px;
+      background-color: rgba(225, 225, 225, 0.3);
+      margin-top: 120px;
+      text-align: center;
+  }
+
+  #autenticador img {
+      width: 120px;
+      height: 120px;
+      margin-top: -60px;
+      margin-bottom: 30px;
+  }
+
+
+input {
+    height: 40px;
+    width: 60%;
+    margin-bottom: 10px;
+    padding-left: 50px;
+    font-size: 18px;
+    background-repeat: no-repeat;
+    background-position: 100px;
+    border: none;
+    background-repeat: no-repeat;
+    background-position: 10px;
+    background-color: #fff;
+}
+
+input.email {
+    background-image: url(../Imagens/icone-usuario.png);
+}
+
+input.senha {
+    background-image: url(../Imagens/icone-cadeado.png);
+}
+
+input.logar {
+    background-color: green;
+    color: white;
+    padding: 5px;
+    width: 68%;
+}
+
